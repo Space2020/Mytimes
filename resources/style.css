@@ -1,0 +1,45 @@
+/* My Times */
+
+
+.header{
+  position: static;
+  border-bottom: 1px solid #3e3e40;
+  width: 100%;
+}
+
+.header h4{
+  font-family: Verdana;
+  font-weight: bold;
+  font-size: 14px;
+  color: MediumAquamarine;
+  margin-left: 15px;
+  margin-top: 25px;
+}
+
+.nav{
+  text-align: right;
+}
+
+span{
+  font-family: Verdana;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 15px;
+}
+
+a{
+  color: #3e3e40;
+  text-decoration: underline;
+}
+
+.container{
+  margin-bottom: 10px;
+  display:flex;
+  width: 100%;
+  position: static;
+}
+
+.logo{
+  margin-left: 25px;
+  height: 65px;
+}
