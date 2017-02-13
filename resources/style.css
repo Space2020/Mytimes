@@ -3,9 +3,11 @@
 /* Header Section */
 
 .header{
-  position: static;
-  border-bottom: 1px solid #3e3e40;
+  display: flex;
+  z-index: 10;
+  position: fixed;
   width: 100%;
+  margin-top: -20px;
 }
 
 .header h4{
@@ -30,12 +32,18 @@ a{
 }
 
 .header .container{
+  z-index: 10;
+  padding-top: 20px;
   margin-bottom: 10px;
-  display:flex;
   width: 100%;
-  height: 65px;
+  display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
-  position: static;
+  height: 65px;
+  position: fixed;
+  background-color: #fff;
+  border-bottom: 1px solid #3e3e40;
+  padding-bottom: 10px;
 }
 
 .logo{
@@ -54,61 +62,25 @@ a{
 
 /* Main Section */
 
+
 div{
   border: 1px solid black;
 }
 
-.main .container{
+.column{
   display: flex;
+  height: 600px;
+  padding-top: 130px;
 }
 
 .column .large{
   width: 630px;
 }
 
-#tuna{
-  background-image: url("tuna.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-
-#fallseason{
-  background-image: url("fallseason.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-
-#hipstercamera{
-  background-image: url("hipstercamera.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-
 .column .medium{
   width: 300px;
 }
 
-#cat{
-  background-image: url("cat.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-
 .column .small{
   width: 240px;
-}
-
-.fc{
-  display: flex;
-}
-
-h2{
-  font-family: Georgia;
-  font-weight: bold;
-  font-size: 30px;
-  color: white;
 }
