@@ -73,34 +73,25 @@ div{
 }
 
 .column{
-  display: inline-flex;
-  flex-wrap: wrap;
+  display: flex;
   height: 800px;
-  width: auto;
-  margin: 90px 20px 0;
+  margin: 120px 10px 0;
 }
 
 .column .large{
-  display: inline-flex;
-  flex-wrap: wrap;
   width: 630px;
 }
 
 .column .medium{
-  display: flex;
-  flex-wrap: wrap;
   width: 300px;
 }
 
 .column .small{
-  display: flex;
-  flex-wrap: wrap;
   width: 240px;
 }
 
 #cookie{
   height: 240px;
-  width: auto;
   width: 240px;
 }
 
@@ -130,4 +121,18 @@ ul{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+#fallseason{
+  background-image: url("./fallseason.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#hipstercamera{
+  background-image: url("./hipstercamera.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }
