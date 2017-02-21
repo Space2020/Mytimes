@@ -80,6 +80,7 @@ a{
 .column{
   margin: 40px;
   display: flex;
+  justify-content: space-between;
   flex-wrap: wrap;
 }
 
@@ -89,12 +90,11 @@ a{
 }
 
 .lg-image{
-  width: 300px;
+  width: 250px;
 }
 
 .story-one{
-  width: 300px;
-  height: 250px;
+  width: 250px;
 }
 
 h1{
@@ -127,7 +127,7 @@ p{
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  height: 230px;
+  height: 250px;
 }
 
 #fallseason{
@@ -154,13 +154,52 @@ p{
 /* Medium Column Styling */
 
 .column.medium{
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
   width: 300px;
 }
 
+#cat{
+  display: flex;
+  align-items: center;
+  background-image: url("./cat.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+}
+
+.second-column{
+  margin-top:
+}
 
 
 /* Small Column Styling */
 
 .column.small{
   width: 240px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+#cookie{
+  height: 98%;
+}
+
+h4{
+  text-align: center;
+  font-size: 18px;
+}
+
+#list-menu li{
+  padding-left: 15px;
+  list-style-type: none;
+  border-bottom: 1px solid #88898A;
+  color: #88898A;
+  font-family: Verdana;
+  font-size: 12px;
+  padding-top: 8px;
+  padding-bottom: 8px;
 }
